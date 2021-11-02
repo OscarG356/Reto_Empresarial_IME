@@ -1,0 +1,32 @@
+.container-logo{
+    background-color: black;
+}
+.menu{
+    margin-left: 5%;
+}
+.navbar{
+    background-color: #252b4d;
+}
+.nav-link{
+    color: white;
+}
+.carrusel{
+    background-color: #252b4d;
+    padding-bottom: 1%;
+}
+.productos{
+    padding-top: 10px;
+}
+h5{
+    text-align: center;
+}
+.menu{
+    position: -webkit-sticky;
+    position: sticky;
+    margin-left: 0px;
+    top: 20px;
+}
+.card{
+    margin: 2px;
+    justify-content: center;
+}
