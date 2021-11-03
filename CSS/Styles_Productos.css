@@ -1,3 +1,8 @@
+:root{
+    --hover: #be8f3e;
+    --color: #bb934f;
+    --blue: #252b4b;
+}
 .container-logo{
     background-color: black;
 }
@@ -12,7 +17,7 @@
 }
 .carrusel{
     background-color: #252b4d;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 }
 .productos{
     padding-top: 10px;
@@ -20,13 +25,47 @@
 h5{
     text-align: center;
 }
-.menu{
-    position: -webkit-sticky;
-    position: sticky;
-    margin-left: 0px;
-    top: 20px;
-}
 .card{
     margin: 2px;
     justify-content: center;
+}
+
+.productos div a{
+    background-color: var(--color);
+    border-color: var(--color);
+}
+.productos div a:hover,
+.productos div a:focus{
+    background-color: var(--hover);
+    border: var(--hover);
+    color: white;
+}
+.list-group-item.active{
+    background-color: var(--hover) !important;
+    border-color: var(--hover) !important;
+}
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: var(--blue);
+    color: var(--color);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 7px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: var(--blue);
+    background-color: var(--color);
+}
+
+.my-float {
+    margin-top: 16px;
 }
