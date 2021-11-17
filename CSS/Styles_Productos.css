@@ -1,49 +1,60 @@
-:root{
+:root {
     --hover: #be8f3e;
     --color: #bb934f;
     --blue: #252b4b;
 }
-.container-logo{
+
+.container-logo {
     background-color: black;
 }
-.menu{
+
+.menu {
     margin-left: 5%;
 }
-.navbar{
-    background-color: #252b4d;
+
+.navbar {
+    background-color: var(--blue);
 }
-.nav-link{
+
+.nav-link {
     color: white;
 }
-.carrusel{
-    background-color: #252b4d;
+
+.carrusel {
+    background-color: var(--blue);
     padding-bottom: 2%;
 }
-.productos{
+
+.productos {
     padding-top: 10px;
 }
-h5{
+
+h5 {
     text-align: center;
 }
-.card{
+
+.card {
     margin: 2px;
     justify-content: center;
 }
 
-.productos div a{
+.productos div a {
     background-color: var(--color);
     border-color: var(--color);
 }
+
 .productos div a:hover,
-.productos div a:focus{
+.productos div a:focus {
     background-color: var(--hover);
     border: var(--hover);
     color: white;
 }
-.list-group-item.active{
+
+.list-group-item.active {
     background-color: var(--hover) !important;
     border-color: var(--hover) !important;
 }
+
 .float {
     position: fixed;
     width: 60px;
@@ -68,4 +79,24 @@ h5{
 
 .my-float {
     margin-top: 16px;
+}
+
+footer,
+footer a,
+.numero {
+    color: var(--color) !important;
+}
+
+footer,
+footer a,
+.numero:hover {
+    color: var(--hover);
+}
+
+footer div {
+    background-color: var(--blue);
+}
+
+footer li {
+    text-align: center;
 }
