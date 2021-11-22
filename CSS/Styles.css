@@ -21,3 +21,36 @@
     min-height: 400px; 
     background-color: #252b4d;
 }
+h5{
+    text-align: center;
+    color: #bb934f;
+}
+.tittle{
+    border: 1px solid #bb934f;
+    
+}
+footer,
+footer a,
+.numero {
+    color: #bb934f !important;
+}
+footer,
+footer a,
+.numero:hover {
+    color: #bb934f;
+}
+footer div {
+    background-color: #252b4d;
+}
+footer li {
+    text-align: center;
+}
+.footer-column{
+    text-align: center;
+}
+i{
+    font-size: 30px;
+}
+.logo-footer{
+    width: 5%;
+}
