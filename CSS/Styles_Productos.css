@@ -37,24 +37,39 @@ h5 {
     margin: 2px;
     justify-content: center;
 }
-
-.productos div a {
+.btn-primary{
+    background-color: var(--color) !important;
+    border-color: var(--color) !important;
+    border-radius: 20px !important;
+    color: white !important;
+}
+.productos ul li a {
     background-color: var(--color);
     border-color: var(--color);
 }
-
-.productos div a:hover,
-.productos div a:focus {
-    background-color: var(--hover);
-    border: var(--hover);
-    color: white;
+.btn-primary:hover,
+.btn-primary:focus{
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
+    border-radius: 20px !important;
+    color: white !important;
 }
-
-.list-group-item.active {
-    background-color: var(--hover) !important;
-    border-color: var(--hover) !important;
+.productos ul li a:hover,
+.productos ul li a:focus {
+    background-color: var(--blue);
+    border: var(--blue);
+    color: white !important;
+    border-radius: 20px;
 }
-
+.productos ul li a{
+    color: var(--blue) !important;
+}
+.productos ul li a.active{
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
+    border-radius: 20px !important;
+    color: white !important;
+}
 .float {
     position: fixed;
     width: 60px;
@@ -110,7 +125,7 @@ footer li {
 .footer-column{
     text-align: center;
 }
-i{
+footer i{
     font-size: 30px;
 }
 .logo-footer{
