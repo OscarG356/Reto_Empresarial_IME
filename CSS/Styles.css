@@ -1,3 +1,8 @@
+:root {
+    --hover: #be8f3e;
+    --color: #bb934f;
+    --blue: #252b4b;
+}
 .container-logo{
     background-color: black;
 }
@@ -5,13 +10,13 @@
     margin-left: 5%;
 }
 .navbar{
-    background-color: #252b4d;
+    background-color: var(--blue);
 }
 .nav-link{
     color: white;
 }
 .carrusel{
-    background-color: #252b4d;
+    background-color: var(--blue);
     padding-bottom: 1%;
 }
 .row-header{
@@ -19,28 +24,45 @@
     padding: 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px; 
-    background-color: #252b4d;
+    background-color: var(--blue);
+}
+h3{
+    text-align: center;
+    margin-top: 20px !important;
+    padding: 10px;
+    color: var(--hover);
+    border-top: 1px solid var(--color);
+    border-bottom: 1px solid var(--color);
+    border-radius: 20px;
+}
+.frase-inicial{
+    text-align: center;
+    padding: 10px;
+    color: var(--blue);
+    border-top: 1px solid var(--color);
+    border-bottom: 1px solid var(--color);
 }
 h5{
     text-align: center;
-    color: #bb934f;
+    color: var(--hover);
 }
-.tittle{
-    border: 1px solid #bb934f;
-    
+.btn-primary{
+    background-color: var(--color) !important;
+    border-color: var(--color) !important;
+    color: white !important;
 }
 footer,
 footer a,
 .numero {
-    color: #bb934f !important;
+    color: var(--hover) !important;
 }
 footer,
 footer a,
 .numero:hover {
-    color: #bb934f;
+    color: var(--hover);
 }
 footer div {
-    background-color: #252b4d;
+    background-color: var(--blue);
 }
 footer li {
     text-align: center;
@@ -48,9 +70,13 @@ footer li {
 .footer-column{
     text-align: center;
 }
-i{
+footer i{
     font-size: 30px;
 }
 .logo-footer{
     width: 5%;
+}
+.frase{
+    color: var(--blue);
+    font-style: italic;
 }
