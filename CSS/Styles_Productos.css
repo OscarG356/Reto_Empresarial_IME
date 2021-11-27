@@ -129,6 +129,8 @@ footer li {
 }
 footer i{
     font-size: 30px;
+    transition: all 0.3s ease-in-out;
+    padding: 0 5px 0 5px;
 }
 .logo-footer{
     width: 5%;
@@ -136,4 +138,9 @@ footer i{
 
 .pcenter{
     text-align:center;
+}
+footer i:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.2em);
+            transform: translateY(-0.2em);
 }
