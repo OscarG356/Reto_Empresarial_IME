@@ -80,3 +80,8 @@ footer i{
     color: var(--blue);
     font-style: italic;
 }
+
+.marg{
+    margin-bottom: 20px;
+}
+
